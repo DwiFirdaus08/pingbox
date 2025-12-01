@@ -1,2 +1,3 @@
-# webserv
-Static Web Server
+# LogSpot
+
+Logger for Web Server

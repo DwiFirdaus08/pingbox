@@ -1,3 +1,3 @@
-# LogSpot
+# PingBox
 
-Logger for Web Server
+Logger for Web Service

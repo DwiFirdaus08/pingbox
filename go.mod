@@ -1,3 +1,3 @@
-module github.com/n0z0/logspot
+module github.com/n0z0/pingbox
 
 go 1.25.3

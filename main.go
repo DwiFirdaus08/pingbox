@@ -38,7 +38,7 @@ func main() {
 
 	// Untuk pengujian, kita gunakan port 8080.
 	// Port 80 membutuhkan hak akses administrator/root.
-	port := ":8080"
+	port := ":80"
 
 	fmt.Printf("Server berjalan di http://localhost%s\n", port)
 	fmt.Println("Pastikan Anda telah mengatur file /etc/hosts (atau hosts di Windows) untuk menguji virtual host.")

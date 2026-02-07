@@ -3,13 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GIS CTF</title>
+    <title>ULBI GEOINT - CTF TRACKER</title>
 
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
 
     <link
       rel="icon"
@@ -20,8 +25,20 @@
   <body>
     <div id="map"></div>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <div class="ui-overlay">
+      <header class="cyber-header">
+        <h1><span class="blink">⚡</span> ULBI GEOINT TRACKER</h1>
+        <div class="status-box">SYSTEM: <span class="online">ONLINE</span></div>
+      </header>
 
+      <div class="info-panel">
+        <h3>MISSION OBJECTIVE</h3>
+        <p>Locate and capture all hidden flags in the area.</p>
+        <div id="coordinate-display">LAT: --- | LNG: ---</div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script type="module" src="js/main.js"></script>
   </body>
 </html>
